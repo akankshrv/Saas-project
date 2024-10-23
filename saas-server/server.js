@@ -8,7 +8,7 @@ const upload = multer(); // To handle file uploads
 
 // Enable CORS for all routes and origins
 app.use(cors());
-app.use(express.static(path.join(__dirname, "public")));
+app.use(express.static(path.join(__dirname, "public")));//path where client is stored
 const client = new vision.ImageAnnotatorClient();
 
 app.post("/upload", upload.single("image"), async (req, res) => {
