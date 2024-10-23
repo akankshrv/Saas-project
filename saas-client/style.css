@@ -1,0 +1,87 @@
+/* General body styles */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container styling */
+.container {
+    margin: 0 auto;
+    padding: 40px;
+    max-width: 600px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: #5c67f2;
+}
+
+/* Styling for form and inputs */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="file"] {
+    padding: 10px;
+    border: 2px dashed #5c67f2;
+    background-color: #eef2ff;
+    color: #5c67f2;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+input[type="file"]:hover {
+    border-color: #4b5ee3;
+    background-color: #dbe3ff;
+}
+
+button {
+    background-color: #5c67f2;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #4b5ee3;
+}
+
+/* Result section styling */
+#result {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f9fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    color: #333;
+}
+
+/* Detected labels */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #e6f4ff;
+    padding: 8px 12px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    color: #5c67f2;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
